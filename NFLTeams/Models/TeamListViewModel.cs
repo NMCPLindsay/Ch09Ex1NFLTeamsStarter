@@ -5,6 +5,7 @@ namespace NFLTeams.Models
     public class TeamListViewModel : TeamViewModel
     {
         public List<Team> Teams { get; set; }
+        public string UserName { get; set; }
 
         // use full properties for Conferences and Divisions 
         // so can add 'All' item at beginning
